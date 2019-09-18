@@ -2,7 +2,6 @@
 <html>
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<link href="https://fonts.googleapis.com/css?family=Pattaya&display=swap" rel="stylesheet">
 	<link rel="shortcut icon" href="favicon.png" type="image/png">
@@ -10,14 +9,13 @@
 </head>
 <body>
 	<!-- Блок хедера -->
-	<div class="container-fluid" id="head">
-		<div class="row">
+	<div class="head" id="head">
 			<!--  Первая часть логотип и название -->
-			<div class="col-md-10" id="log">
+			<div class="log" id="log">
 				ЧудоРучки
 			</div>
 			<!--  Вторая часть Вход и регистрация -->
-			<div class="col-md-2 border border-success" id="logreg">
+			<div class="logreg" id="logreg">
 				<div class="container logreg m-0 p-0 mx-auto">
 					<div class="row login m-0 p-0 btn-block " >
 						<a href="#">Вход</a> 
@@ -27,7 +25,6 @@
 					</div>
 				</div>
 			</div>
-		</div>
 	</div>
 
 	<!-- Блок слайдера -->

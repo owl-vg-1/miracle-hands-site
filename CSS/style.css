@@ -1,6 +1,7 @@
 body, html {
   width: 100%;
   height: 100%;
+  margin: 0px;
   background-color: #E6E2D9;
   background-image: url("../img/canvas3.jpg");
   background-position: center center;
@@ -9,14 +10,24 @@ body, html {
   background-size: cover;
 }
 
+body .head, html .head {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
 body #log, html #log {
   min-height: 90px;
-  padding-left: 15%;
   font-family: 'Pattaya', sans-serif;
   font-size: 60px;
   letter-spacing: 7px;
   color: #EC8E7F;
   text-shadow: 1px -1px 0 #666, 2px -2px 0 #666, 3px -3px 0 #666, 4px -4px 0 #666;
+  margin: auto;
 }
 
 body #logreg, html #logreg {
